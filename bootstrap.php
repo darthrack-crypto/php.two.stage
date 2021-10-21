@@ -2,7 +2,6 @@
 
 include 'helpers.php';
 require_once __DIR__ . '/vendor/autoload.php';
-var_dump(__DIR__);
 
 const APP_DIR = __DIR__;
 const VIEW_DIR = APP_DIR . "/view/";

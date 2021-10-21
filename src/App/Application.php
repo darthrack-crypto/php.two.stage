@@ -13,6 +13,7 @@ class Application
     public function __construct($router)
     {
         $this->router = $router;
+        $this->initialize();
     }
 
     public function run(string $uri, string $method) 
@@ -37,5 +38,10 @@ class Application
         } else {
             http_response_code(500);
         }
+    }
+
+    private function initialize()
+    {
+
     }
 }
